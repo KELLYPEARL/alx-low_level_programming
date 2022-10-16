@@ -1,17 +1,17 @@
 #include<stdio.h>
 /**
  * main - Entry point
- * code by Pearl
- * Return: Always 0 (Success)
+ *
+ *Return: Always 0 (Success)
  *
  */
-
 int main(void)
-{printf("Size of a char: %1u byte(s)\n", sizeof(char));
-printf("Size of a int: %4u  byte(s)\n", sizeof(char));
-printf("Size of a long int: %4u byte(s)\n", sizeof(char));
-printf("Size of a long long int: %8u byte(s)\n", sizeof(char));
-printf("Size of a float: %4u byte(s)\n", sizeof(char))
+{
+printf("Size of a char: %lu byte(s)\n", sizeof(1 byte(s)));
+printf("Size of a int: %lu byte(s)\n", sizeof(4 byte(s)));
+printf("Size of a long int: %lu byte(s)\n", sizeof(4 byte(s)));
+printf("Size of a long long int: %lu byte(s)\n", sizeof(8 byte(s)));
+printf("Size of a float: %lu byte(s)\n", sizeof(4 byte(s)))
 return (0);
 }
 
